@@ -1,14 +1,23 @@
 .position{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   position: fixed;
   width: 100%;
-  z-index: 2;
-  background-color: white;
+  z-index: 5;
+
+
 }
 
  header{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0px 30px 0px 30px;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -20,22 +29,15 @@
   border-left: 1px;
   border-right: 1px;
   padding-bottom: 10px;
-
-
-
+  background-color: white;
 }
 nav{
   display: inline-block;
   }
-nav .first{
+nav .first, nav .second, nav .third{
   margin-right: 20px;
 }
-nav .second{
-  margin-right: 20px;
-}
-nav .third{
-  margin-right: 20px;
-}
+
 .logo{
   color: MediumAquamarine;
   display: flex;
@@ -49,7 +51,8 @@ nav .third{
   top:100px;
   display: flex;
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  
 
 
 }
@@ -57,7 +60,11 @@ nav .third{
 .main_conteiner.large{
   width: 630px;
   display: flex;
+
+
 }
+
+
 .main_conteiner.medium{
   width:300px;
   display: flex;
@@ -65,4 +72,96 @@ nav .third{
 .main_conteiner.small{
   width:240px;
   display: flex;
+}
+
+.paragraph1_1{
+  display: flex;
+  background-image: url('F:/Projects/My_times/resources/photos/img-story-main.png');
+  width: 600px;
+  height: 300px;
+
+}
+.paragraph1_1 h1{
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  width: 600px;
+  margin-top: 0;
+}
+.paragraph1_4{
+  display: flex;
+  background-image: url('F:/Projects/My_times/resources/photos/img-story-2.png');
+  width: 300px;
+  height: 300px;
+
+}
+.paragraph1_4 h1{
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: auto;
+  margin-top: 0;
+
+}
+.paragraph1_6{
+  display: flex;
+  background-image: url('F:/Projects/My_times/resources/photos/img-story-3.png');
+  width: 300px;
+  height: 300px;
+}
+.paragraph1_6 h1{
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+.paragraph2_2{
+  display: flex;
+  background-image: url('F:/Projects/My_times/resources/photos/img-story-1.png');
+  width: 300px;
+  height: 300px;
+
+}
+.paragraph2_2 h1{
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 0px;
+
+
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  text-align: justify;
+  width: 600px;
+}
+.large, .medium, .small{
+  margin: 0px 20px 10px 20px;
+}
+.paragraph3_2{
+  width: 260px;
+}
+
+.paragraph1_3 p,.paragraph1_3 h1{
+  width: 300px;
+
+}
+.paragraph1_5 p,.paragraph1_5 h1{
+  width: 300px;
+
+}
+.paragraph1_3, .paragraph1_4{
+  align-self: flex-start;
 }
